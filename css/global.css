@@ -1,0 +1,11 @@
+* {
+	/* цвета  */
+	background-color: #212529;
+	color: #f8f9fa;
+
+	/* шрифт  */
+	font-family: Montserrat;
+
+	/*внешние отступы*/
+	margin: 0;
+}
