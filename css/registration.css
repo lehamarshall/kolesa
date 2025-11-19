@@ -1,0 +1,49 @@
+.registration_form {
+  /*флекс-контейнер*/
+  display: flex;
+  flex-direction: column;
+}
+
+.to_authorization {
+  /*флекс-контейнер*/
+  display: flex;
+  flex-direction: row;
+}
+
+.services {
+  /*флекс-контейнер*/
+  display: flex;
+  flex-direction: row;
+}
+
+.yandex-button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-image: url('../ico/services/yandex.png');
+  background-size: cover;
+}
+
+.google-button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-image: url('../ico/services/google.png');
+  background-size: cover;  
+}
+
+.apple-button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-image: url('../ico/services/apple.png');
+  background-size: cover;  
+}
+
+.telegram-button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-image: url('../ico/services/telegram.png');
+  background-size: cover;  
+}
