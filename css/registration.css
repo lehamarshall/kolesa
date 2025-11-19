@@ -1,49 +1,62 @@
-.registration_form {
-  /*флекс-контейнер*/
+h1 {
+  /* выравнивание */
+  text-align: center;
+  /* размер шрифта */
+  font-size: 4em;
+}
+
+label, input, button, p, a {
+  /* размер шрифта */
+  font-size: 2em;
+}
+
+
+
+.registration_form, .to_authorization, .services{
+  /* базовые настройки флекс-контейнера */
   display: flex;
+}
+
+.registration_form {
+  /* базовые настройки флекс-контейнера */
   flex-direction: column;
 }
 
-.to_authorization {
-  /*флекс-контейнер*/
-  display: flex;
+.to_authorization, .services {
+  /* базовые настройки флекс-контейнера */
   flex-direction: row;
+  /* выравнивание */
+  justify-content: center;
 }
 
-.services {
-  /*флекс-контейнер*/
-  display: flex;
-  flex-direction: row;
-}
 
-.yandex-button{
-  width: 50px;
-  height: 50px;
+
+.yandex-button, .google-button, .apple-button, .telegram-button {
+  /* размеры */
+  width: 75px;
+  height: 75px;
+  /* обводка */
   border: none;
-  background-image: url('../ico/services/yandex.png');
+  /* картинка занимает весь размер кнопки */
   background-size: cover;
 }
 
+.yandex-button{
+  /* изображение */
+  background-image: url('../ico/services/yandex.png');
+}
+
 .google-button{
-  width: 50px;
-  height: 50px;
-  border: none;
+  /* изображение */
   background-image: url('../ico/services/google.png');
-  background-size: cover;  
 }
 
 .apple-button{
-  width: 50px;
-  height: 50px;
-  border: none;
+  /* изображение */
   background-image: url('../ico/services/apple.png');
-  background-size: cover;  
 }
 
 .telegram-button{
-  width: 50px;
-  height: 50px;
-  border: none;
+  /* изображение */
   background-image: url('../ico/services/telegram.png');
-  background-size: cover;  
 }
