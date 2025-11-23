@@ -1,0 +1,124 @@
+body {
+  /* размеры */
+  width: 75vw;
+  
+  /* выравнивание по центру*/
+  margin-inline: auto;
+  margin-block-start: 50vh;
+  transform: translateY(-50%);
+}
+
+
+
+h1 {
+  /* выравнивание */
+  text-align: center;
+
+  /* размер шрифта */
+  font-size: 4em;
+
+  /* нижний отступ*/
+  margin-bottom: 0.5em;
+}
+
+label, input, button, p, a {
+  /* размер шрифта */
+  font-size: 2em;
+}
+
+input, button {
+  /* размер: высота */
+  height: 2em;
+
+  /* скругление */
+  border-radius: 1em;
+}
+
+/* наведение на кнопку */
+button:hover {
+  /* прозрачность */
+  opacity: 0.8;
+}
+
+/* клик */
+button:active {
+  /* уменьшение размера */
+  transform: scale(0.95);
+}
+
+input {
+  border: solid #f8f9fa;
+}
+
+
+
+.authorization_form, .to_registration, .services{
+  /* базовые настройки флекс-контейнера */
+  display: flex;
+
+  /* нижний отступ*/
+  margin-bottom: 1em;
+}
+
+.authorization_form {
+  /* базовые настройки флекс-контейнера */
+  flex-direction: column;
+}
+
+.to_registration, .services {
+  /* базовые настройки флекс-контейнера */
+  flex-direction: row;
+
+  /* выравнивание */
+  justify-content: center;
+}
+
+.authorization_form > button {
+  /* цвета  */
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.authorization_form, .services{
+  /* отступы между элементов*/
+  gap: 1em;
+}
+
+.to_registration {
+  /* отступы между элементов*/
+  gap: 1ch;
+}
+
+
+
+.yandex-button, .google-button, .apple-button, .telegram-button {
+  /* размеры */
+  width: 75px;
+  height: 75px;
+
+  /* обводка */
+  border: none;
+
+  /* картинка занимает весь размер кнопки */
+  background-size: cover;
+}
+
+.yandex-button{
+  /* изображение */
+  background-image: url('../ico/services/yandex.png');
+}
+
+.google-button{
+  /* изображение */
+  background-image: url('../ico/services/google.png');
+}
+
+.apple-button{
+  /* изображение */
+  background-image: url('../ico/services/apple.png');
+}
+
+.telegram-button{
+  /* изображение */
+  background-image: url('../ico/services/telegram.png');
+}

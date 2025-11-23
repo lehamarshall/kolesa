@@ -1,11 +1,11 @@
 body {
   /* размеры */
   width: 75vw;
-  height: 50vh;
   
-  /* отступы (выравнивание) */
-  margin-top: 25vh;
-  margin-left: 12.5vw;
+  /* выравнивание по центру*/
+  margin-inline: auto;
+  margin-block-start: 50vh;
+  transform: translateY(-50%);
 }
 
 

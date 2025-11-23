@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Кодировка документа-->
+		<meta charset = "utf-8">
+		<!--Автор и краткое описание страницы-->
+		<meta name = "author" content = "kolesa team">
+		<meta name = "description" content = "kolesa web app">
+		<!--Ключевые слова-->
+		<meta name = "keywords" content = "kolesa">
+		<!--Подключаем таблицу стилей-->
+		<link rel = "stylesheet" href = "../css/global.css">
+		<link rel = "stylesheet" href = "../css/authorization.css">
+		<!--Подключение шрифта (?)-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<!--Заголовок документа (название вкладки)-->
+		<title>
+			Авторизация — Колёса
+		</title>
+	<!--РАЗМЕТКА-->
+	<body>
+		<h1>Авторизация</h1>
+		<form>
+			<!--    -->
+			<div class = "authorization_form">
+				<label for = "login">Введите почту или телефон</label>
+				<input type = "text" id = "login" name = "login">
+				<label for = "password">Введите пароль</label>
+				<input type = "password" id = "password" name = "password">
+				<button>Войти</button>
+			</div>
+		</form>
+		<!--    -->
+		<div class = "to_registration">
+			<p>Ещё не зарегистрированы?</p><a href="../html/registration.html">Зарегистрироваться</a>
+		</div>
+		<!--    -->
+		<div class = "services">
+			<button class = "yandex-button"></button>
+			<button class = "google-button"></button>
+			<button class = "apple-button"></button>
+			<button class = "telegram-button"></button>
+		</div>
+	</body>
+</html>
