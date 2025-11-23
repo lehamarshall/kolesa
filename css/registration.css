@@ -1,8 +1,26 @@
+body {
+  /* размеры */
+  width: 75vw;
+  height: 50vh;
+  
+  /* отступы (выравнивание) */
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+
+
+
 h1 {
   /* выравнивание */
   text-align: center;
+
   /* размер шрифта */
   font-size: 4em;
+
+  /* нижний отступ*/
+  margin-bottom: 1em;
 }
 
 label, input, button, p, a {
@@ -10,11 +28,37 @@ label, input, button, p, a {
   font-size: 2em;
 }
 
+input, button {
+  /* размер: высота */
+  height: 2em;
+
+  /* скругление */
+  border-radius: 1em;
+}
+
+/* наведение на кнопку */
+button:hover {
+  /* прозрачность */
+  opacity: 0.8;
+}
+
+/* клик */
+button:active {
+  /* уменьшение размера */
+  transform: scale(0.95);
+}
+
 
 
 .registration_form, .to_authorization, .services{
   /* базовые настройки флекс-контейнера */
   display: flex;
+
+  /* отступы между элементов*/
+  gap: 1em;
+
+  /* нижний отступ*/
+  margin-bottom: 1em;
 }
 
 .registration_form {
@@ -22,9 +66,16 @@ label, input, button, p, a {
   flex-direction: column;
 }
 
+.registration_form > button {
+  /* цвета  */
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
 .to_authorization, .services {
   /* базовые настройки флекс-контейнера */
   flex-direction: row;
+
   /* выравнивание */
   justify-content: center;
 }
@@ -35,8 +86,10 @@ label, input, button, p, a {
   /* размеры */
   width: 75px;
   height: 75px;
+
   /* обводка */
   border: none;
+
   /* картинка занимает весь размер кнопки */
   background-size: cover;
 }
