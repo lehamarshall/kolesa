@@ -5,9 +5,7 @@ body {
   
   /* отступы (выравнивание) */
   margin-top: 25vh;
-  margin-bottom: 25vh;
   margin-left: 12.5vw;
-  margin-right: 12.5vw;
 }
 
 
@@ -20,7 +18,7 @@ h1 {
   font-size: 4em;
 
   /* нижний отступ*/
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 label, input, button, p, a {
@@ -58,9 +56,6 @@ input {
   /* базовые настройки флекс-контейнера */
   display: flex;
 
-  /* отступы между элементов*/
-  gap: 1em;
-
   /* нижний отступ*/
   margin-bottom: 1em;
 }
@@ -70,18 +65,28 @@ input {
   flex-direction: column;
 }
 
-.registration_form > button {
-  /* цвета  */
-  background-color: #f8f9fa;
-  color: #212529;
-}
-
 .to_authorization, .services {
   /* базовые настройки флекс-контейнера */
   flex-direction: row;
 
   /* выравнивание */
   justify-content: center;
+}
+
+.registration_form > button {
+  /* цвета  */
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.registration_form, .services{
+  /* отступы между элементов*/
+  gap: 1em;
+}
+
+.to_authorization {
+  /* отступы между элементов*/
+  gap: 1ch;
 }
 
 
