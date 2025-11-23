@@ -48,6 +48,10 @@ button:active {
   transform: scale(0.95);
 }
 
+input {
+  border: solid #f8f9fa;
+}
+
 
 
 .registration_form, .to_authorization, .services{
