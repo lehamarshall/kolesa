@@ -1,0 +1,61 @@
+.menu-button {
+  /* размеры */
+  width: 75px;
+  height: 75px;
+
+  /* обводка */
+  border: none;
+
+  /* картинка занимает весь размер кнопки */
+  background-size: cover;
+
+  /* изображение */
+  background-image: url('../ico/main_screen/menu_button.png');
+}
+
+
+
+.top_part, .left_side, .right_side, .bottom_side, .bottom_part_png, .bottom_part_buttons {
+  /* базовые настройки флекс-контейнера */
+  display: flex;
+
+  /* нижний отступ*/
+  margin-bottom: 1em;
+}
+
+.left_side, .right_side, .bottom_side, .bottom_part_buttons{
+  /* базовые настройки флекс-контейнера */
+  flex-direction: column;
+}
+
+.top_part, .bottom_part_png {
+  /* базовые настройки флекс-контейнера */
+  flex-direction: row;
+
+  /* выравнивание */
+  justify-content: space-between;
+}
+
+.bottom_part_buttons{
+  /* отступы между элементов*/
+  gap: 1em;
+}
+
+
+
+.bottom_part_png {
+  /* размеры */
+  height: 50vh;
+
+  /* цвета  */
+  background-color: #f8f9fa;
+
+  /* обводка */
+  border: none;
+
+  /* картинка занимает весь размер кнопки */
+  background-size: cover;
+
+  /* изображение */
+  background-image: url('../img/ford_fusion.jpg');
+}
