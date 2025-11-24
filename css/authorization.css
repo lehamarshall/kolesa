@@ -14,12 +14,20 @@ label, input, button, p, a {
   font-size: 2em;
 }
 
-input, button {
+input {
   /* размер: высота */
   height: 2em;
 
   /* скругление */
   border-radius: 1em;
+}
+
+button {
+  /* размер: высота */
+  height: 2.5em;
+
+  /* скругление */
+  border-radius: 2em;
 }
 
 /* наведение на кнопку */
