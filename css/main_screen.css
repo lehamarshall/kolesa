@@ -107,8 +107,7 @@ input {
 
 .bottom_part_png {
   /* размеры */
-  width: 75vmin;
-  height: 75vmin;
+  height: 50vw;
 
   /* цвета  */
   background-color: #f8f9fa;
