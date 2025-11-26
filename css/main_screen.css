@@ -1,3 +1,44 @@
+h2 {
+  /* размер шрифта */
+  font-size: 4em;
+}
+
+label, input, button, p, a {
+  /* размер шрифта */
+  font-size: 2em;
+}
+
+input {
+  /* размер: высота */
+  height: 2em;
+
+  /* скругление */
+  border-radius: 1em;
+}
+
+button {
+  /* размер: высота */
+  height: 2.5em;
+}
+
+/* наведение на кнопку */
+button:hover {
+  /* прозрачность */
+  opacity: 0.8;
+}
+
+/* клик */
+button:active {
+  /* уменьшение размера */
+  transform: scale(0.95);
+}
+
+input {
+  border: solid #f8f9fa;
+}
+
+
+
 .menu-button {
   /* размеры */
   width: 75px;
@@ -41,6 +82,27 @@
   gap: 1em;
 }
 
+.bottom_part_buttons > button {
+  /* цвета  */
+  background-color: #f8f9fa;
+  color: #212529;
+
+  /* скругление */
+  border-radius: 2em;
+}
+
+.right_side{
+  /* выравнивание */
+  text-align: right;
+
+  /* выравнивание по перечной оси*/
+  align-items: flex-end;
+}
+
+.right_side > button {
+  /* размеры */
+  flex-basis: 96px;
+}
 
 
 .bottom_part_png {
@@ -58,4 +120,7 @@
 
   /* изображение */
   background-image: url('../img/ford_fusion.jpg');
+
+  /* скругление */
+  border-radius: 25%;
 }
